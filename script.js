@@ -156,9 +156,14 @@ redButton.addEventListener("click", function() { messageElement.style.background
 blueButton.addEventListener("click", function() { messageElement.style.backgroundColor= "blue";});
 
 greenButton.addEventListener("click", function() { messageElement.style.backgroundColor= "green";});
-choiceButton.addEventListener("click", function() { bodyStyle.style.backgroundImage= "url('images/background1.jpg')";});
+choiceButton.addEventListener("click", function() { bodyStyle.style.backgroundImage= "url('images/background2.jpg')";});
 
 
+
+choiceButton.addEventListener("click", function()
+{
+    choiceButton.style.backgroundImage = "url('images/background4.jpg";
+})
 
 
 
