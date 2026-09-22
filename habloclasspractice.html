@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HABLOCLASS Student Access</title>
+
+    <link rel="stylesheet" href="habloclasspractice.css">
+</head>
+
+<body>
+
+    <main class="login-container">
+
+        <section class="login-card">
+
+            <div class="logo">
+                <h1>HABLOCLASS</h1>
+                <p>Speak, Connect and Grow</p>
+            </div>
+
+            <h2>Student Access</h2>
+
+            <p class="instruction">
+                Enter your student ID and personal code.
+            </p>
+
+            <!-- Student ID -->
+            <label for="studentId">Student ID</label>
+
+            <input
+                type="text"
+                id="studentId"
+                placeholder="Example: 0202607"
+                maxlength="7"
+            >
+
+            <!-- Personal Code -->
+            <label for="personalCode">Personal Code</label>
+
+            <input
+                type="password"
+                id="personalCode"
+                placeholder="Enter your code"
+                readonly
+            >
+
+            <!-- Digit Keypad -->
+      <div class="keypad">
+
+    <button class="digit" data-digit="1">1</button>
+    <button class="digit" data-digit="2">2</button>
+    <button class="digit" data-digit="3">3</button>
+
+    <button class="digit" data-digit="4">4</button>
+    <button class="digit" data-digit="5">5</button>
+    <button class="digit" data-digit="6">6</button>
+
+    <button class="digit" data-digit="7">7</button>
+    <button class="digit" data-digit="8">8</button>
+    <button class="digit" data-digit="9">9</button>
+
+    <button id="clearButton">C</button>
+    <button class="digit" data-digit="0">0</button>
+    <button id="deleteButton">⌫</button>
+
+</div>
+
+            <button id="loginButton" class="login-button">
+                Continue
+            </button>
+
+            <p id="message"></p>
+
+        </section>
+
+    </main>
+
+    <script src="habloclasspractice.js"></script>
+
+</body>
+</html>
